@@ -1456,8 +1456,8 @@ h6 {
 }
 .main-block__image img{
   
-        max-height: 650px;
-        margin-top: 50px;
+        max-height: 650px !important;
+        margin-top: 50px !important;
     
   
 }
