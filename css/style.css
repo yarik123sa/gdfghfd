@@ -1454,7 +1454,13 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
 }
-
+.main-block__image{
+  img{
+        max-height: 650px;
+        margin-top: 50px;
+    
+  }
+}
 @supports (padding-bottom: clamp( 8.75rem , 8.2142857143rem  +  2.6785714286vw , 10.625rem )) {
   .main-block__image {
     padding-bottom: clamp( 8.75rem , 8.2142857143rem  +  2.6785714286vw , 10.625rem );
